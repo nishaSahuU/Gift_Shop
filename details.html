@@ -1,0 +1,1885 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anon - eCommerce Website</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./images/logo/favicon.ico" type="image/x-icon">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./css/style-prefix.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <div class="overlay" data-overlay></div>
+  <!--
+    - HEADER
+  -->
+  <header>
+    <div class="header-top">
+      <div class="container">
+        <a href="#" class="header-logo">
+          Gift Shop
+        </a>
+        <nav class="desktop-navigation-menu">
+          <div class="container">
+            <ul class="desktop-menu-category-list">
+              <li class="menu-category">
+                <a href="index.html" class="menu-title">Home</a>
+              </li>
+              <li class="menu-category">
+                <a href="#" class="menu-title">Categories</a>
+                <ul class="dropdown-list">
+                  <li class="dropdown-item">
+                    <a href="#">Friend</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#">Family</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#">Spouce</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#">Children</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-category">
+                <a href="#" class="menu-title">Blog</a>
+              </li>
+              <div class="header-search-container">
+                <input type="search" name="search" class="search-field" placeholder="Search here...">
+                <button class="search-btn">
+                  <ion-icon name="search-outline"></ion-icon>
+                </button>
+              </div>
+            </ul>
+          </div>
+        </nav>
+      
+       
+      </div>
+      
+    </div>
+
+
+   
+      <nav class="navbar navbar-expand-lg navbar-light bg-light lg-sc-hidden">
+        <div class="container-fluid">
+          <a href="#" class="header-logo">
+            Gift Shop
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <a class="nav-link dropdown-toggle"  id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                   Categories
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Friend</a></li>
+                    <li><a class="dropdown-item" href="#">Family</a></li>
+                    <li><a class="dropdown-item" href="#">Spouse</a></li>
+
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <div class="header-search-container">
+                <input type="search" name="search" class="search-field" placeholder="Search here...">
+                <button class="search-btn">
+                  <ion-icon name="search-outline"></ion-icon>
+                </button>
+              </div>
+            </ul> 
+<!-- 
+            <div class="container">
+              <ul class="desktop-menu-category-list">
+                <li class="menu-category">
+                  <a href="#" class="menu-title">Home</a>
+                </li>
+                <li class="menu-category">
+                  <a href="#" class="menu-title">Categories</a>
+                  <ul class="dropdown-list">
+                    <li class="dropdown-item">
+                      <a href="#">Friend</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Family</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Spouce</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Children</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-category">
+                  <a href="#" class="menu-title">Blog</a>
+                </li>
+              
+              </ul>
+            </div> -->
+          </div>
+        </div>
+      </nav>
+      <nav class="title">
+
+        <div class="container">
+          <ul class="desktop-menu-category-list">
+            <li class="menu-category">
+              <a href="#" class="banner-btn">AI Curated Gift Ideas</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  
+      <div class="heading-title">
+        <div class="container">
+          <p class="lead">Our AI-powered tool will guide you in choosing the perfect gift when you're unsure about what to
+            buy. Simply fill out the form below with information about the recipient and your budget, and we'll suggest a
+            curated list of gifts!</p>
+  
+        </div>
+      </div>
+  </header>
+
+    <main>
+        <div class="products" id="products">
+            <!-- <div class="form-box">
+        <div class="container">
+
+          <div class="row g-5">
+            <div>
+              <h4 class="form-title">Gift Details</h4>
+              <div class="header-search-container">
+                <form class="needs-validation" action="home.html">
+                  <div class="form-container">
+                    <div class="col-12">
+                      <label for="relationship" class="showcase-title margin">Relationship</label>
+                      <input type="text" class="search-field margin" id="relationship" name="relationship"
+                        placeholder="" value="" required>
+                      <div class="invalid-feedback">
+                        Relationship information is required.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <label for="age" class="showcase-title margin">Age</label>
+                      <input type="number" class="search-field margin" id="age" name="age" placeholder="" value=""
+                        required>
+                      <div class="invalid-feedback">
+                        Age information is required.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <label for="occasion" class="form-label margin">Occasion</label>
+                      <input type="text" class="search-field margin" id="occasion" name="occasion" placeholder=""
+                        value="" required>
+                      <div class="invalid-feedback">
+                        Occasion information is required.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <label for="interests" class="showcase-title margin">Interests</label>
+                      <input type="text" class="search-field margin" id="interests" name="interests" placeholder=""
+                        value="" required>
+                      <div class="invalid-feedback">
+                        Interest information is required.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <label for="budget" class="showcase-title margin">Budget</label>
+                      <input type="number" class="search-field margin" id="budget" name="budget" placeholder="" value=""
+                        required>
+                      <div class="invalid-feedback">
+                        Budget information is required.
+                      </div>
+                    </div>
+                    <button class="form-btn" id="submit" type="submit">Show results</button>
+                  </div>
+                  <hr class="my-4">
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> -->
+            <div class="product-listitem1" id="product-listitem1">
+                <div class="product-container">
+                    <div class="container">
+                        <div class="product-box">
+                            <div class="product-main">
+
+                                <h2 class="title">Result</h2>
+
+                                <div class="product-grid">
+
+                                    <div class="showcase">
+
+                                        <div class="showcase-banner">
+
+                                            <img src="./images/products/jacket-3.jpg"
+                                                alt="Mens Winter Leathers Jackets" width="300"
+                                                class="product-img default">
+                                            <img src="./images/products/jacket-4.jpg"
+                                                alt="Mens Winter Leathers Jackets" width="300"
+                                                class="product-img hover">
+                                            <div class="showcase-actions">
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="heart-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="eye-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="repeat-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="bag-add-outline"></ion-icon>
+                                                </button>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="showcase-content">
+
+                                            <a href="#" class="showcase-category">jacket</a>
+
+                                            <a href="#">
+                                                <h3 class="showcase-title">Mens Winter Leathers Jackets</h3>
+                                            </a>
+
+                                            <div class="showcase-rating">
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star-outline"></ion-icon>
+                                                <ion-icon name="star-outline"></ion-icon>
+                                            </div>
+
+                                            <div class="price-box">
+                                                <p class="description-tag"><i class="fa fa-refresh"></i> Condition:Good
+                                                </p>
+                                                <p class="description-tag"><i class="fa fa-info-circle"></i>
+                                                    Description: Lorem ipsum dolor sit
+                                                    amet consectetur adipisicing elit. Saepe rem impedit sequi illum
+                                                    maxime ut aut veniam quibusdam accusamus aliquam!</p>
+                                                <p class="price description-tag">$48.00 <span> <del>$75.00</del></span>
+                                                </p>
+
+                                                <!-- Button trigger modal -->
+                                                <button type="button" class="btn banner-btn" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal">
+                                                    View Details
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="exampleModalLabel">Details
+                                                                </h5>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+
+                                                                <div class="product-featured">
+                                                                    <div class="showcase-container">
+
+                                                                        <div class="showcase">
+
+                                                                            <div class="showcase-banner">
+                                                                                <img src="./images/products/jacket-3.jpg"
+                                                                                    alt="jacket"
+                                                                                    class="showcase-img">
+                                                                            </div>
+
+                                                                            <div class="showcase-content">
+
+                                                                                <div class="showcase-rating">
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon
+                                                                                        name="star-outline"></ion-icon>
+                                                                                    <ion-icon
+                                                                                        name="star-outline"></ion-icon>
+                                                                                </div>
+
+                                                                                <a href="#">
+                                                                                    <h2 class="showcase-title" style="font-size: 4rem; font-weight: bold;">Jacket</h2>
+                                                                                </a>
+
+                                                                                <p class="showcase-desc">
+                                                                                    Lorem ipsum dolor sit amet
+                                                                                    consectetur Lorem ipsum
+                                                                                    dolor dolor sit amet consectetur
+                                                                                    Lorem ipsum dolor
+                                                                                </p>
+
+                                                                                <div class="price-box">
+                                                                                    <p class="price">$150.00 <span> <del>$200.00</del></span></p>
+
+                                                                                   
+                                                                                </div>
+
+                                                                                <button class="add-cart-btn">Buy</button>
+
+                                                                                <div class="showcase-status">
+                                                                                    <div class="wrapper">
+                                                                                        <p>
+                                                                                          Store: <b>ForEveryone</b>
+                                                                                        </p>
+
+                                                                                        <p>
+                                                                                            Store Rating: <b>4/5</b>
+                                                                                        </p>
+                                                                                       
+                                                                                        <p>Store Reviews:<b> 4.5/5</b> </p>
+                                                                                        <p>Number of Comparisons: <b>145</b></p>
+                                                                                    </div>
+
+                                                                                    <div class="showcase-status-bar">
+                                                                                    </div>
+                                                                                </div>
+
+                                                                        
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn banner-btn"
+                                                                    data-bs-dismiss="modal">Close</button>
+                                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="showcase">
+
+                                        <div class="showcase-banner">
+                                            <img src="./images/products/shirt-1.jpg"
+                                                alt="Pure Garment Dyed Cotton Shirt" class="product-img default"
+                                                width="300">
+                                            <img src="./images/products/shirt-2.jpg"
+                                                alt="Pure Garment Dyed Cotton Shirt" class="product-img hover"
+                                                width="300">
+
+
+
+                                            <div class="showcase-actions">
+                                                <button class="btn-action">
+                                                    <ion-icon name="heart-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="eye-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="repeat-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="bag-add-outline"></ion-icon>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="showcase-content">
+                                            <a href="#" class="showcase-category">shirt</a>
+
+                                            <h3>
+                                                <a href="#" class="showcase-title">Pure Garment Dyed Cotton Shirt</a>
+                                            </h3>
+
+                                            <div class="showcase-rating">
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star-outline"></ion-icon>
+                                                <ion-icon name="star-outline"></ion-icon>
+                                            </div>
+
+                                            <div class="price-box">
+                                                <p class="description-tag"><i class="fa fa-refresh"></i> Condition:Good
+                                                </p>
+                                                <p class="description-tag"><i class="fa fa-info-circle"></i>
+                                                    Description: Lorem ipsum dolor sit
+                                                    amet consectetur adipisicing elit. Saepe rem impedit sequi illum
+                                                    maxime ut aut veniam quibusdam accusamus aliquam!</p>
+                                                <p class="price description-tag">$48.00 <span> <del>$75.00</del></span>
+                                                </p>
+                                               <!-- Button trigger modal -->
+                                               <button type="button" class="btn banner-btn" data-bs-toggle="modal"
+                                               data-bs-target="#exampleModal">
+                                               View Details
+                                           </button>
+
+                                           <!-- Modal -->
+                                           <div class="modal fade" id="exampleModal" tabindex="-1"
+                                               aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                               <div class="modal-dialog">
+                                                   <div class="modal-content">
+                                                       <div class="modal-header">
+                                                           <h5 class="modal-title" id="exampleModalLabel">Details
+                                                           </h5>
+                                                           <button type="button" class="btn-close"
+                                                               data-bs-dismiss="modal" aria-label="Close"></button>
+                                                       </div>
+                                                       <div class="modal-body">
+
+                                                           <div class="product-featured">
+                                                               <div class="showcase-container">
+
+                                                                   <div class="showcase">
+
+                                                                       <div class="showcase-banner">
+                                                                           <img src="./images/products/jacket-3.jpg"
+                                                                               alt="jacket"
+                                                                               class="showcase-img">
+                                                                       </div>
+
+                                                                       <div class="showcase-content">
+
+                                                                           <div class="showcase-rating">
+                                                                               <ion-icon name="star"></ion-icon>
+                                                                               <ion-icon name="star"></ion-icon>
+                                                                               <ion-icon name="star"></ion-icon>
+                                                                               <ion-icon
+                                                                                   name="star-outline"></ion-icon>
+                                                                               <ion-icon
+                                                                                   name="star-outline"></ion-icon>
+                                                                           </div>
+
+                                                                           <a href="#">
+                                                                               <h2 class="showcase-title" style="font-size: 4rem; font-weight: bold;">Jacket</h2>
+                                                                           </a>
+
+                                                                           <p class="showcase-desc">
+                                                                               Lorem ipsum dolor sit amet
+                                                                               consectetur Lorem ipsum
+                                                                               dolor dolor sit amet consectetur
+                                                                               Lorem ipsum dolor
+                                                                           </p>
+
+                                                                           <div class="price-box">
+                                                                               <p class="price">$150.00 <span> <del>$200.00</del></span></p>
+
+                                                                              
+                                                                           </div>
+
+                                                                           <button class="add-cart-btn">Buy</button>
+
+                                                                           <div class="showcase-status">
+                                                                               <div class="wrapper">
+                                                                                   <p>
+                                                                                     Store: <b>ForEveryone</b>
+                                                                                   </p>
+
+                                                                                   <p>
+                                                                                       Store Rating: <b>4/5</b>
+                                                                                   </p>
+                                                                                  
+                                                                                   <p>Store Reviews:<b> 4.5/5</b> </p>
+                                                                                   <p>Number of Comparisons: <b>145</b></p>
+                                                                               </div>
+
+                                                                               <div class="showcase-status-bar">
+                                                                               </div>
+                                                                           </div>
+
+                                                                   
+                                                                       </div>
+
+                                                                   </div>
+
+                                                               </div>
+                                                           </div>
+                                                       </div>
+                                                       <div class="modal-footer">
+                                                           <button type="button" class="btn banner-btn"
+                                                               data-bs-dismiss="modal">Close</button>
+                               
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                    <div class="showcase">
+
+                                        <div class="showcase-banner">
+                                            <img src="./images/products/jacket-5.jpg"
+                                                alt="MEN Yarn Fleece Full-Zip Jacket" class="product-img default"
+                                                width="300">
+                                            <img src="./images/products/jacket-6.jpg"
+                                                alt="MEN Yarn Fleece Full-Zip Jacket" class="product-img hover"
+                                                width="300">
+
+                                            <div class="showcase-actions">
+                                                <button class="btn-action">
+                                                    <ion-icon name="heart-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="eye-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="repeat-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="bag-add-outline"></ion-icon>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="showcase-content">
+                                            <a href="#" class="showcase-category">Jacket</a>
+
+                                            <h3>
+                                                <a href="#" class="showcase-title">MEN Yarn Fleece Full-Zip Jacket</a>
+                                            </h3>
+
+                                            <div class="showcase-rating">
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star-outline"></ion-icon>
+                                                <ion-icon name="star-outline"></ion-icon>
+                                            </div>
+
+                                            <div class="price-box">
+                                                <p class="description-tag"><i class="fa fa-refresh"></i> Condition:Good
+                                                </p>
+                                                <p class="description-tag"><i class="fa fa-info-circle"></i>
+                                                    Description: Lorem ipsum dolor sit
+                                                    amet consectetur adipisicing elit. Saepe rem impedit sequi illum
+                                                    maxime ut aut veniam quibusdam accusamus aliquam!</p>
+                                                <p class="price description-tag">$48.00 <span> <del>$75.00</del></span>
+                                                </p>
+                                                 <!-- Button trigger modal -->
+                                                 <button type="button" class="btn banner-btn" data-bs-toggle="modal"
+                                                 data-bs-target="#exampleModal">
+                                                 View Details
+                                             </button>
+
+                                             <!-- Modal -->
+                                             <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                 aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                 <div class="modal-dialog">
+                                                     <div class="modal-content">
+                                                         <div class="modal-header">
+                                                             <h5 class="modal-title" id="exampleModalLabel">Details
+                                                             </h5>
+                                                             <button type="button" class="btn-close"
+                                                                 data-bs-dismiss="modal" aria-label="Close"></button>
+                                                         </div>
+                                                         <div class="modal-body">
+
+                                                             <div class="product-featured">
+                                                                 <div class="showcase-container">
+
+                                                                     <div class="showcase">
+
+                                                                         <div class="showcase-banner">
+                                                                             <img src="./images/products/jacket-3.jpg"
+                                                                                 alt="jacket"
+                                                                                 class="showcase-img">
+                                                                         </div>
+
+                                                                         <div class="showcase-content">
+
+                                                                             <div class="showcase-rating">
+                                                                                 <ion-icon name="star"></ion-icon>
+                                                                                 <ion-icon name="star"></ion-icon>
+                                                                                 <ion-icon name="star"></ion-icon>
+                                                                                 <ion-icon
+                                                                                     name="star-outline"></ion-icon>
+                                                                                 <ion-icon
+                                                                                     name="star-outline"></ion-icon>
+                                                                             </div>
+
+                                                                             <a href="#">
+                                                                                 <h2 class="showcase-title" style="font-size: 4rem; font-weight: bold;">Jacket</h2>
+                                                                             </a>
+
+                                                                             <p class="showcase-desc">
+                                                                                 Lorem ipsum dolor sit amet
+                                                                                 consectetur Lorem ipsum
+                                                                                 dolor dolor sit amet consectetur
+                                                                                 Lorem ipsum dolor
+                                                                             </p>
+
+                                                                             <div class="price-box">
+                                                                                 <p class="price">$150.00 <span> <del>$200.00</del></span></p>
+
+                                                                                
+                                                                             </div>
+
+                                                                             <button class="add-cart-btn">Buy</button>
+
+                                                                             <div class="showcase-status">
+                                                                                 <div class="wrapper">
+                                                                                     <p>
+                                                                                       Store: <b>ForEveryone</b>
+                                                                                     </p>
+
+                                                                                     <p>
+                                                                                         Store Rating: <b>4/5</b>
+                                                                                     </p>
+                                                                                    
+                                                                                     <p>Store Reviews:<b> 4.5/5</b> </p>
+                                                                                     <p>Number of Comparisons: <b>145</b></p>
+                                                                                 </div>
+
+                                                                                 <div class="showcase-status-bar">
+                                                                                 </div>
+                                                                             </div>
+
+                                                                     
+                                                                         </div>
+
+                                                                     </div>
+
+                                                                 </div>
+                                                             </div>
+                                                         </div>
+                                                         <div class="modal-footer">
+                                                             <button type="button" class="btn banner-btn"
+                                                                 data-bs-dismiss="modal">Close</button>
+                                 
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                    <div class="showcase">
+
+                                        <div class="showcase-banner">
+                                            <img src="./images/products/shoe-2.jpg"
+                                                alt="Casual Men's Brown shoes" class="product-img default" width="300">
+                                            <img src="./images/products/shoe-2_1.jpg"
+                                                alt="Casual Men's Brown shoes" class="product-img hover" width="300">
+
+                                            <div class="showcase-actions">
+                                                <button class="btn-action">
+                                                    <ion-icon name="heart-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="eye-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="repeat-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="bag-add-outline"></ion-icon>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="showcase-content">
+                                            <a href="#" class="showcase-category">casual</a>
+
+                                            <h3>
+                                                <a href="#" class="showcase-title">Casual Men's Brown shoes</a>
+                                            </h3>
+
+                                            <div class="showcase-rating">
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                            </div>
+
+                                            <div class="price-box">
+                                                <p class="description-tag"><i class="fa fa-refresh"></i> Condition:Good
+                                                </p>
+                                                <p class="description-tag"><i class="fa fa-info-circle"></i>
+                                                    Description: Lorem ipsum dolor sit
+                                                    amet consectetur adipisicing elit. Saepe rem impedit sequi illum
+                                                    maxime ut aut veniam quibusdam accusamus aliquam!</p>
+                                                <p class="price description-tag">$48.00 <span> <del>$75.00</del></span>
+                                                </p>
+                                                  <!-- Button trigger modal -->
+                                                <button type="button" class="btn banner-btn" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal">
+                                                    View Details
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="exampleModalLabel">Details
+                                                                </h5>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+
+                                                                <div class="product-featured">
+                                                                    <div class="showcase-container">
+
+                                                                        <div class="showcase">
+
+                                                                            <div class="showcase-banner">
+                                                                                <img src="./images/products/jacket-3.jpg"
+                                                                                    alt="jacket"
+                                                                                    class="showcase-img">
+                                                                            </div>
+
+                                                                            <div class="showcase-content">
+
+                                                                                <div class="showcase-rating">
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon
+                                                                                        name="star-outline"></ion-icon>
+                                                                                    <ion-icon
+                                                                                        name="star-outline"></ion-icon>
+                                                                                </div>
+
+                                                                                <a href="#">
+                                                                                    <h2 class="showcase-title" style="font-size: 4rem; font-weight: bold;">Jacket</h2>
+                                                                                </a>
+
+                                                                                <p class="showcase-desc">
+                                                                                    Lorem ipsum dolor sit amet
+                                                                                    consectetur Lorem ipsum
+                                                                                    dolor dolor sit amet consectetur
+                                                                                    Lorem ipsum dolor
+                                                                                </p>
+
+                                                                                <div class="price-box">
+                                                                                    <p class="price">$150.00 <span> <del>$200.00</del></span></p>
+
+                                                                                   
+                                                                                </div>
+
+                                                                                <button class="add-cart-btn">Buy</button>
+
+                                                                                <div class="showcase-status">
+                                                                                    <div class="wrapper">
+                                                                                        <p>
+                                                                                          Store: <b>ForEveryone</b>
+                                                                                        </p>
+
+                                                                                        <p>
+                                                                                            Store Rating: <b>4/5</b>
+                                                                                        </p>
+                                                                                       
+                                                                                        <p>Store Reviews:<b> 4.5/5</b> </p>
+                                                                                        <p>Number of Comparisons: <b>145</b></p>
+                                                                                    </div>
+
+                                                                                    <div class="showcase-status-bar">
+                                                                                    </div>
+                                                                                </div>
+
+                                                                        
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn banner-btn"
+                                                                    data-bs-dismiss="modal">Close</button>
+                                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                    <div class="showcase">
+
+                                        <div class="showcase-banner">
+                                            <img src="./images/products/watch-3.jpg"
+                                                alt="Pocket Watch Leather Pouch" class="product-img default"
+                                                width="300">
+                                            <img src="./images/products/watch-4.jpg"
+                                                alt="Pocket Watch Leather Pouch" class="product-img hover" width="300">
+
+                                            <p class="showcase-badge angle black">sale</p>
+
+                                            <div class="showcase-actions">
+                                                <button class="btn-action">
+                                                    <ion-icon name="heart-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="eye-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="repeat-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="bag-add-outline"></ion-icon>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="showcase-content">
+                                            <a href="#" class="showcase-category">watches</a>
+
+                                            <h3>
+                                                <a href="#" class="showcase-title">Pocket Watch Leather Pouch</a>
+                                            </h3>
+
+                                            <div class="showcase-rating">
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star-outline"></ion-icon>
+                                                <ion-icon name="star-outline"></ion-icon>
+                                            </div>
+
+                                            <div class="price-box">
+                                                <p class="description-tag"><i class="fa fa-refresh"></i> Condition:Good
+                                                </p>
+                                                <p class="description-tag"><i class="fa fa-info-circle"></i>
+                                                    Description: Lorem ipsum dolor sit
+                                                    amet consectetur adipisicing elit. Saepe rem impedit sequi illum
+                                                    maxime ut aut veniam quibusdam accusamus aliquam!</p>
+                                                <p class="price description-tag">$48.00 <span> <del>$75.00</del></span>
+                                                </p>
+                                                  <!-- Button trigger modal -->
+                                                <button type="button" class="btn banner-btn" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal">
+                                                    View Details
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="exampleModalLabel">Details
+                                                                </h5>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+
+                                                                <div class="product-featured">
+                                                                    <div class="showcase-container">
+
+                                                                        <div class="showcase">
+
+                                                                            <div class="showcase-banner">
+                                                                                <img src="./images/products/jacket-3.jpg"
+                                                                                    alt="jacket"
+                                                                                    class="showcase-img">
+                                                                            </div>
+
+                                                                            <div class="showcase-content">
+
+                                                                                <div class="showcase-rating">
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon
+                                                                                        name="star-outline"></ion-icon>
+                                                                                    <ion-icon
+                                                                                        name="star-outline"></ion-icon>
+                                                                                </div>
+
+                                                                                <a href="#">
+                                                                                    <h2 class="showcase-title" style="font-size: 4rem; font-weight: bold;">Jacket</h2>
+                                                                                </a>
+
+                                                                                <p class="showcase-desc">
+                                                                                    Lorem ipsum dolor sit amet
+                                                                                    consectetur Lorem ipsum
+                                                                                    dolor dolor sit amet consectetur
+                                                                                    Lorem ipsum dolor
+                                                                                </p>
+
+                                                                                <div class="price-box">
+                                                                                    <p class="price">$150.00 <span> <del>$200.00</del></span></p>
+
+                                                                                   
+                                                                                </div>
+
+                                                                                <button class="add-cart-btn">Buy</button>
+
+                                                                                <div class="showcase-status">
+                                                                                    <div class="wrapper">
+                                                                                        <p>
+                                                                                          Store: <b>ForEveryone</b>
+                                                                                        </p>
+
+                                                                                        <p>
+                                                                                            Store Rating: <b>4/5</b>
+                                                                                        </p>
+                                                                                       
+                                                                                        <p>Store Reviews:<b> 4.5/5</b> </p>
+                                                                                        <p>Number of Comparisons: <b>145</b></p>
+                                                                                    </div>
+
+                                                                                    <div class="showcase-status-bar">
+                                                                                    </div>
+                                                                                </div>
+
+                                                                        
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn banner-btn"
+                                                                    data-bs-dismiss="modal">Close</button>
+                                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                    <div class="showcase">
+
+                                        <div class="showcase-banner">
+                                            <img src="./images/products/watch-1.jpg"
+                                                alt="Smart watche Vital Plus" class="product-img default" width="300">
+                                            <img src="./images/products/watch-2.jpg"
+                                                alt="Smart watche Vital Plus" class="product-img hover" width="300">
+
+                                            <div class="showcase-actions">
+                                                <button class="btn-action">
+                                                    <ion-icon name="heart-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="eye-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="repeat-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="bag-add-outline"></ion-icon>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="showcase-content">
+                                            <a href="#" class="showcase-category">watches</a>
+
+                                            <h3>
+                                                <a href="#" class="showcase-title">Smart watche Vital Plus</a>
+                                            </h3>
+
+                                            <div class="showcase-rating">
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star-outline"></ion-icon>
+                                            </div>
+                                            <div class="price-box">
+                                                <p class="description-tag"><i class="fa fa-refresh"></i> Condition:Good
+                                                </p>
+                                                <p class="description-tag"><i class="fa fa-info-circle"></i>
+                                                    Description: Lorem ipsum dolor sit
+                                                    amet consectetur adipisicing elit. Saepe rem impedit sequi illum
+                                                    maxime ut aut veniam quibusdam accusamus aliquam!</p>
+                                                <p class="price description-tag">$48.00 <span> <del>$75.00</del></span>
+                                                </p>
+                                                  <!-- Button trigger modal -->
+                                                <button type="button" class="btn banner-btn" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal">
+                                                    View Details
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="exampleModalLabel">Details
+                                                                </h5>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+
+                                                                <div class="product-featured">
+                                                                    <div class="showcase-container">
+
+                                                                        <div class="showcase">
+
+                                                                            <div class="showcase-banner">
+                                                                                <img src="./images/products/jacket-3.jpg"
+                                                                                    alt="jacket"
+                                                                                    class="showcase-img">
+                                                                            </div>
+
+                                                                            <div class="showcase-content">
+
+                                                                                <div class="showcase-rating">
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon
+                                                                                        name="star-outline"></ion-icon>
+                                                                                    <ion-icon
+                                                                                        name="star-outline"></ion-icon>
+                                                                                </div>
+
+                                                                                <a href="#">
+                                                                                    <h2 class="showcase-title" style="font-size: 4rem; font-weight: bold;">Jacket</h2>
+                                                                                </a>
+
+                                                                                <p class="showcase-desc">
+                                                                                    Lorem ipsum dolor sit amet
+                                                                                    consectetur Lorem ipsum
+                                                                                    dolor dolor sit amet consectetur
+                                                                                    Lorem ipsum dolor
+                                                                                </p>
+
+                                                                                <div class="price-box">
+                                                                                    <p class="price">$150.00 <span> <del>$200.00</del></span></p>
+
+                                                                                   
+                                                                                </div>
+
+                                                                                <button class="add-cart-btn">Buy</button>
+
+                                                                                <div class="showcase-status">
+                                                                                    <div class="wrapper">
+                                                                                        <p>
+                                                                                          Store: <b>ForEveryone</b>
+                                                                                        </p>
+
+                                                                                        <p>
+                                                                                            Store Rating: <b>4/5</b>
+                                                                                        </p>
+                                                                                       
+                                                                                        <p>Store Reviews:<b> 4.5/5</b> </p>
+                                                                                        <p>Number of Comparisons: <b>145</b></p>
+                                                                                    </div>
+
+                                                                                    <div class="showcase-status-bar">
+                                                                                    </div>
+                                                                                </div>
+
+                                                                        
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn banner-btn"
+                                                                    data-bs-dismiss="modal">Close</button>
+                                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                    <div class="showcase">
+
+                                        <div class="showcase-banner">
+                                            <img src="./images/products/jacket-1.jpg"
+                                                alt="Mens Winter Leathers Jackets" class="product-img default"
+                                                width="300">
+                                            <img src="./images/products/jacket-2.jpg"
+                                                alt="Mens Winter Leathers Jackets" class="product-img hover"
+                                                width="300">
+
+                                            <div class="showcase-actions">
+                                                <button class="btn-action">
+                                                    <ion-icon name="heart-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="eye-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="repeat-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="bag-add-outline"></ion-icon>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="showcase-content">
+                                            <a href="#" class="showcase-category">jacket</a>
+
+                                            <h3>
+                                                <a href="#" class="showcase-title">Mens Winter Leathers Jackets</a>
+                                            </h3>
+
+                                            <div class="showcase-rating">
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star-outline"></ion-icon>
+                                            </div>
+
+                                            <div class="price-box">
+                                                <p class="description-tag"><i class="fa fa-refresh"></i> Condition:Good
+                                                </p>
+                                                <p class="description-tag"><i class="fa fa-info-circle"></i>
+                                                    Description: Lorem ipsum dolor sit
+                                                    amet consectetur adipisicing elit. Saepe rem impedit sequi illum
+                                                    maxime ut aut veniam quibusdam accusamus aliquam!</p>
+                                                <p class="price description-tag">$48.00 <span> <del>$75.00</del></span>
+                                                </p>
+                                                  <!-- Button trigger modal -->
+                                                <button type="button" class="btn banner-btn" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal">
+                                                    View Details
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="exampleModalLabel">Details
+                                                                </h5>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+
+                                                                <div class="product-featured">
+                                                                    <div class="showcase-container">
+
+                                                                        <div class="showcase">
+
+                                                                            <div class="showcase-banner">
+                                                                                <img src="./images/products/jacket-3.jpg"
+                                                                                    alt="jacket"
+                                                                                    class="showcase-img">
+                                                                            </div>
+
+                                                                            <div class="showcase-content">
+
+                                                                                <div class="showcase-rating">
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon
+                                                                                        name="star-outline"></ion-icon>
+                                                                                    <ion-icon
+                                                                                        name="star-outline"></ion-icon>
+                                                                                </div>
+
+                                                                                <a href="#">
+                                                                                    <h2 class="showcase-title" style="font-size: 4rem; font-weight: bold;">Jacket</h2>
+                                                                                </a>
+
+                                                                                <p class="showcase-desc">
+                                                                                    Lorem ipsum dolor sit amet
+                                                                                    consectetur Lorem ipsum
+                                                                                    dolor dolor sit amet consectetur
+                                                                                    Lorem ipsum dolor
+                                                                                </p>
+
+                                                                                <div class="price-box">
+                                                                                    <p class="price">$150.00 <span> <del>$200.00</del></span></p>
+
+                                                                                   
+                                                                                </div>
+
+                                                                                <button class="add-cart-btn">Buy</button>
+
+                                                                                <div class="showcase-status">
+                                                                                    <div class="wrapper">
+                                                                                        <p>
+                                                                                          Store: <b>ForEveryone</b>
+                                                                                        </p>
+
+                                                                                        <p>
+                                                                                            Store Rating: <b>4/5</b>
+                                                                                        </p>
+                                                                                       
+                                                                                        <p>Store Reviews:<b> 4.5/5</b> </p>
+                                                                                        <p>Number of Comparisons: <b>145</b></p>
+                                                                                    </div>
+
+                                                                                    <div class="showcase-status-bar">
+                                                                                    </div>
+                                                                                </div>
+
+                                                                        
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn banner-btn"
+                                                                    data-bs-dismiss="modal">Close</button>
+                                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <div class="showcase-banner">
+                                            <img src="./images/products/sports-2.jpg"
+                                                alt="Trekking & Running Shoes - black" class="product-img default"
+                                                width="300">
+                                            <img src="./images/products/sports-4.jpg"
+                                                alt="Trekking & Running Shoes - black" class="product-img hover"
+                                                width="300">
+
+                                            <p class="showcase-badge angle black">sale</p>
+
+                                            <div class="showcase-actions">
+                                                <button class="btn-action">
+                                                    <ion-icon name="heart-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="eye-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="repeat-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="bag-add-outline"></ion-icon>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="showcase-content">
+                                            <a href="#" class="showcase-category">sports</a>
+
+                                            <h3>
+                                                <a href="#" class="showcase-title">Trekking & Running Shoes - black</a>
+                                            </h3>
+
+                                            <div class="showcase-rating">
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star-outline"></ion-icon>
+                                                <ion-icon name="star-outline"></ion-icon>
+                                            </div>
+
+                                            <div class="price-box">
+                                                <p class="description-tag"><i class="fa fa-refresh"></i> Condition:Good
+                                                </p>
+                                                <p class="description-tag"><i class="fa fa-info-circle"></i>
+                                                    Description: Lorem ipsum dolor sit
+                                                    amet consectetur adipisicing elit. Saepe rem impedit sequi illum
+                                                    maxime ut aut veniam quibusdam accusamus aliquam!</p>
+                                                <p class="price description-tag">$48.00 <span> <del>$75.00</del></span>
+                                                </p>
+                                                  <!-- Button trigger modal -->
+                                                <button type="button" class="btn banner-btn" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal">
+                                                    View Details
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="exampleModalLabel">Details
+                                                                </h5>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+
+                                                                <div class="product-featured">
+                                                                    <div class="showcase-container">
+
+                                                                        <div class="showcase">
+
+                                                                            <div class="showcase-banner">
+                                                                                <img src="./images/products/jacket-3.jpg"
+                                                                                    alt="jacket"
+                                                                                    class="showcase-img">
+                                                                            </div>
+
+                                                                            <div class="showcase-content">
+
+                                                                                <div class="showcase-rating">
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon
+                                                                                        name="star-outline"></ion-icon>
+                                                                                    <ion-icon
+                                                                                        name="star-outline"></ion-icon>
+                                                                                </div>
+
+                                                                                <a href="#">
+                                                                                    <h2 class="showcase-title" style="font-size: 4rem; font-weight: bold;">Jacket</h2>
+                                                                                </a>
+
+                                                                                <p class="showcase-desc">
+                                                                                    Lorem ipsum dolor sit amet
+                                                                                    consectetur Lorem ipsum
+                                                                                    dolor dolor sit amet consectetur
+                                                                                    Lorem ipsum dolor
+                                                                                </p>
+
+                                                                                <div class="price-box">
+                                                                                    <p class="price">$150.00 <span> <del>$200.00</del></span></p>
+
+                                                                                   
+                                                                                </div>
+
+                                                                                <button class="add-cart-btn">Buy</button>
+
+                                                                                <div class="showcase-status">
+                                                                                    <div class="wrapper">
+                                                                                        <p>
+                                                                                          Store: <b>ForEveryone</b>
+                                                                                        </p>
+
+                                                                                        <p>
+                                                                                            Store Rating: <b>4/5</b>
+                                                                                        </p>
+                                                                                       
+                                                                                        <p>Store Reviews:<b> 4.5/5</b> </p>
+                                                                                        <p>Number of Comparisons: <b>145</b></p>
+                                                                                    </div>
+
+                                                                                    <div class="showcase-status-bar">
+                                                                                    </div>
+                                                                                </div>
+
+                                                                        
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn banner-btn"
+                                                                    data-bs-dismiss="modal">Close</button>
+                                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <div class="showcase-banner">
+                                            <img src="./images/products/shoe-1.jpg"
+                                                alt="Men's Leather Formal Wear shoes" class="product-img default"
+                                                width="300">
+                                            <img src="./images/products/shoe-1_1.jpg"
+                                                alt="Men's Leather Formal Wear shoes" class="product-img hover"
+                                                width="300">
+
+                                            <div class="showcase-actions">
+                                                <button class="btn-action">
+                                                    <ion-icon name="heart-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="eye-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="repeat-outline"></ion-icon>
+                                                </button>
+
+                                                <button class="btn-action">
+                                                    <ion-icon name="bag-add-outline"></ion-icon>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="showcase-content">
+                                            <a href="#" class="showcase-category">formal</a>
+
+                                            <h3>
+                                                <a href="#" class="showcase-title">Men's Leather Formal Wear shoes</a>
+                                            </h3>
+
+                                            <div class="showcase-rating">
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star-outline"></ion-icon>
+                                            </div>
+
+                                            <div class="price-box">
+                                                <p class="description-tag"><i class="fa fa-refresh"></i> Condition:Good
+                                                </p>
+                                                <p class="description-tag"><i class="fa fa-info-circle"></i>
+                                                    Description: Lorem ipsum dolor sit
+                                                    amet consectetur adipisicing elit. Saepe rem impedit sequi illum
+                                                    maxime ut aut veniam quibusdam accusamus aliquam!</p>
+                                                <p class="price description-tag">$48.00 <span> <del>$75.00</del></span>
+                                                </p>
+                                                  <!-- Button trigger modal -->
+                                                <button type="button" class="btn banner-btn" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal">
+                                                    View Details
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="exampleModalLabel">Details
+                                                                </h5>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+
+                                                                <div class="product-featured">
+                                                                    <div class="showcase-container">
+
+                                                                        <div class="showcase">
+
+                                                                            <div class="showcase-banner">
+                                                                                <img src="./images/products/jacket-3.jpg"
+                                                                                    alt="jacket"
+                                                                                    class="showcase-img">
+                                                                            </div>
+
+                                                                            <div class="showcase-content">
+
+                                                                                <div class="showcase-rating">
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon name="star"></ion-icon>
+                                                                                    <ion-icon
+                                                                                        name="star-outline"></ion-icon>
+                                                                                    <ion-icon
+                                                                                        name="star-outline"></ion-icon>
+                                                                                </div>
+
+                                                                                <a href="#">
+                                                                                    <h2 class="showcase-title" style="font-size: 4rem; font-weight: bold;">Jacket</h2>
+                                                                                </a>
+
+                                                                                <p class="showcase-desc">
+                                                                                    Lorem ipsum dolor sit amet
+                                                                                    consectetur Lorem ipsum
+                                                                                    dolor dolor sit amet consectetur
+                                                                                    Lorem ipsum dolor
+                                                                                </p>
+
+                                                                                <div class="price-box">
+                                                                                    <p class="price">$150.00 <span> <del>$200.00</del></span></p>
+
+                                                                                   
+                                                                                </div>
+
+                                                                                <button class="add-cart-btn">Buy</button>
+
+                                                                                <div class="showcase-status">
+                                                                                    <div class="wrapper">
+                                                                                        <p>
+                                                                                          Store: <b>ForEveryone</b>
+                                                                                        </p>
+
+                                                                                        <p>
+                                                                                            Store Rating: <b>4/5</b>
+                                                                                        </p>
+                                                                                       
+                                                                                        <p>Store Reviews:<b> 4.5/5</b> </p>
+                                                                                        <p>Number of Comparisons: <b>145</b></p>
+                                                                                    </div>
+
+                                                                                    <div class="showcase-status-bar">
+                                                                                    </div>
+                                                                                </div>
+
+                                                                        
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn banner-btn"
+                                                                    data-bs-dismiss="modal">Close</button>
+                                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <!--
+    - FOOTER
+  -->
+
+    <footer>
+        <div class="footer-nav">
+
+            <div class="container">
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Popular Categories</h2>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Option</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Option</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Option</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Option</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Option</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Products</h2>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Option</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Option</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Option</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Option</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link"></a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Our Company</h2>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Option</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Legal Notice</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Terms and conditions</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">About us</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Secure payment</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Services</h2>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Option</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Option</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Option</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Contact us</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Sitemap</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Contact</h2>
+                    </li>
+
+                    <li class="footer-nav-item flex">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <address class="content">
+                            419 State 414 Rte
+                            Beaver Dams, New York(NY), 14812, USA
+                        </address>
+                    </li>
+
+                    <li class="footer-nav-item flex">
+                        <div class="icon-box">
+                            <ion-icon name="call-outline"></ion-icon>
+                        </div>
+
+                        <a href="tel:+607936-8058" class="footer-nav-link">(607) 936-8058</a>
+                    </li>
+
+                    <li class="footer-nav-item flex">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <a href="mailto:example@gmail.com" class="footer-nav-link">example@gmail.com</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Follow Us</h2>
+                    </li>
+
+                    <li>
+                        <ul class="social-link">
+
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+
+                <p class="copyright">
+                    Copyright &copy; <a href="#">Company name</a> all rights reserved.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>

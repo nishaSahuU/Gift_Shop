@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anon - eCommerce Website</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./images/logo/favicon.ico" type="image/x-icon">
+<!--
+    - bootstrap
+  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./css/style-prefix.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="overlay" data-overlay></div>
+  <!--
+    - HEADER
+  -->
+  <header>
+    <div class="header-top">
+      <div class="container">
+        <a href="#" class="header-logo">
+          Gift Shop
+        </a>
+        <nav class="desktop-navigation-menu">
+          <div class="container">
+            <ul class="desktop-menu-category-list">
+              <li class="menu-category">
+                <a href="#" class="menu-title">Home</a>
+              </li>
+              <li class="menu-category">
+                <a href="#" class="menu-title">Categories</a>
+                <ul class="dropdown-list">
+                  <li class="dropdown-item">
+                    <a href="#">Friend</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#">Family</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#">Spouce</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#">Children</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-category">
+                <a href="#" class="menu-title">Blog</a>
+              </li>
+              <div class="header-search-container">
+                <input type="search" name="search" class="search-field" placeholder="Search here...">
+                <button class="search-btn">
+                  <ion-icon name="search-outline"></ion-icon>
+                </button>
+              </div>
+            </ul>
+          </div>
+        </nav>
+      
+       
+      </div>
+      
+    </div>
+
+
+   
+      <nav class="navbar navbar-expand-lg navbar-light bg-light lg-sc-hidden">
+        <div class="container-fluid">
+          <a href="#" class="header-logo">
+            Gift Shop
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <a class="nav-link dropdown-toggle"  id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                   Categories
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Friend</a></li>
+                    <li><a class="dropdown-item" href="#">Family</a></li>
+                    <li><a class="dropdown-item" href="#">Spouse</a></li>
+
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <div class="header-search-container">
+                <input type="search" name="search" class="search-field" placeholder="Search here...">
+                <button class="search-btn">
+                  <ion-icon name="search-outline"></ion-icon>
+                </button>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav class="title">
+
+        <div class="container">
+          <ul class="desktop-menu-category-list">
+            <li class="menu-category">
+              <a href="#" class="banner-btn">AI Curated Gift Ideas</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  
+      <div class="heading-title">
+        <div class="container">
+          <p class="lead">Our AI-powered tool will guide you in choosing the perfect gift when you're unsure about what to
+            buy. Simply fill out the form below with information about the recipient and your budget, and we'll suggest a
+            curated list of gifts!</p>
+  
+        </div>
+      </div>
+  </header>
+
+  <main>
+    <div class="products" id="products">
+      <div class="form-box">
+        <div class="container">
+          <div class="row g-5">
+            <div>
+              <h4 class="form-title">Gift Details</h4>
+              <div class="header-search-container">
+                <form class="needs-validation" action="details.html">
+                  <div class="form-container">
+                    <div class="col-12">
+                      <label for="relationship" class="showcase-title margin">Relationship</label>
+                      <input type="text" class="search-field margin" id="relationship" name="relationship"
+                        placeholder="" value="" required>
+                   
+                    </div>
+                    <div class="col-12">
+                      <label for="age" class="showcase-title margin">Age</label>
+                      <input type="number" class="search-field margin" id="age" name="age" placeholder="" value=""
+                        required>
+                     
+                    </div>
+                    <div class="col-12">
+                      <label for="occasion" class="form-label margin">Occasion</label>
+                      <input type="text" class="search-field margin" id="occasion" name="occasion" placeholder=""
+                        value="" required>
+                      
+                    </div>
+                    <div class="col-12">
+                      <label for="interests" class="showcase-title margin">Interests</label>
+                      <input type="text" class="search-field margin" id="interests" name="interests" placeholder=""
+                        value="" required>
+                     
+                    </div>
+                    <div class="col-12">
+                      <label for="budget" class="showcase-title margin">Budget</label>
+                      <input type="number" class="search-field margin" id="budget" name="budget" placeholder="" value=""
+                        required>
+                     
+                    </div>
+                    <button class="form-btn banner-btn" id="submit" type="submit">Show results</button>
+                  </div>
+                  <hr class="my-4">
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!--
+    - FOOTER
+  -->
+
+  <footer>
+    <div class="footer-nav">
+
+      <div class="container">
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Popular Categories</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Option</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Option</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Option</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Option</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Option</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Products</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Option</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Option</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Option</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Option</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link"></a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Our Company</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Option</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Legal Notice</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Terms and conditions</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">About us</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Secure payment</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Services</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Option</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Option</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Option</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Sitemap</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="content">
+              419 State 414 Rte
+              Beaver Dams, New York(NY), 14812, USA
+            </address>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+607936-8058" class="footer-nav-link">(607) 936-8058</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:example@gmail.com" class="footer-nav-link">example@gmail.com</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Follow Us</h2>
+          </li>
+
+          <li>
+            <ul class="social-link">
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+
+        <p class="copyright">
+          Copyright &copy; <a href="#">Company name</a> all rights reserved.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"></script>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
